@@ -13,7 +13,7 @@ namespace App1
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-            MobileCenter.Start("374739fe-487d-47e1-8c1d-307d7ef79a2f",typeof(Analytics), typeof(Crashes));
+            MobileCenter.Start("374739fe-487d-47e1-8c1d-307d7ef79a2f",typeof(Analytics), typeof(Crashes)); //sample
             // Set our view from the "main" layout resource
             // SetContentView (Resource.Layout.Main);
         }
