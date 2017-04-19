@@ -26,6 +26,19 @@ namespace App1
 		
 		public static void UpdateIdValues()
 		{
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_dialog_actioned_on_disabled_toast = global::App1.Resource.String.mobile_center_distribute_dialog_actioned_on_disabled_toast;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_download_progress_number_format = global::App1.Resource.String.mobile_center_distribute_download_progress_number_format;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_download_successful_notification_message = global::App1.Resource.String.mobile_center_distribute_download_successful_notification_message;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_download_successful_notification_title = global::App1.Resource.String.mobile_center_distribute_download_successful_notification_title;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_downloading_mandatory_update = global::App1.Resource.String.mobile_center_distribute_downloading_mandatory_update;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_install = global::App1.Resource.String.mobile_center_distribute_install;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_unknown_sources_dialog_message = global::App1.Resource.String.mobile_center_distribute_unknown_sources_dialog_message;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_unknown_sources_dialog_settings = global::App1.Resource.String.mobile_center_distribute_unknown_sources_dialog_settings;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_update_dialog_download = global::App1.Resource.String.mobile_center_distribute_update_dialog_download;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_update_dialog_ignore = global::App1.Resource.String.mobile_center_distribute_update_dialog_ignore;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_update_dialog_message = global::App1.Resource.String.mobile_center_distribute_update_dialog_message;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_update_dialog_postpone = global::App1.Resource.String.mobile_center_distribute_update_dialog_postpone;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_update_dialog_title = global::App1.Resource.String.mobile_center_distribute_update_dialog_title;
 		}
 		
 		public partial class Attribute
@@ -95,11 +108,50 @@ namespace App1
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f04000e
+			public const int ApplicationName = 2130968590;
+			
+			// aapt resource value: 0x7f04000d
+			public const int Hello = 2130968589;
 			
 			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			public const int mobile_center_distribute_dialog_actioned_on_disabled_toast = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int mobile_center_distribute_download_progress_number_format = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int mobile_center_distribute_download_successful_notification_message = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int mobile_center_distribute_download_successful_notification_title = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int mobile_center_distribute_downloading_mandatory_update = 2130968580;
+			
+			// aapt resource value: 0x7f040005
+			public const int mobile_center_distribute_install = 2130968581;
+			
+			// aapt resource value: 0x7f040006
+			public const int mobile_center_distribute_unknown_sources_dialog_message = 2130968582;
+			
+			// aapt resource value: 0x7f040007
+			public const int mobile_center_distribute_unknown_sources_dialog_settings = 2130968583;
+			
+			// aapt resource value: 0x7f040008
+			public const int mobile_center_distribute_update_dialog_download = 2130968584;
+			
+			// aapt resource value: 0x7f040009
+			public const int mobile_center_distribute_update_dialog_ignore = 2130968585;
+			
+			// aapt resource value: 0x7f04000a
+			public const int mobile_center_distribute_update_dialog_message = 2130968586;
+			
+			// aapt resource value: 0x7f04000b
+			public const int mobile_center_distribute_update_dialog_postpone = 2130968587;
+			
+			// aapt resource value: 0x7f04000c
+			public const int mobile_center_distribute_update_dialog_title = 2130968588;
 			
 			static String()
 			{
