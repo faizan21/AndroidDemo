@@ -15,7 +15,9 @@ namespace App1
         {
             base.OnCreate(bundle);
             MobileCenter.Start("374739fe-487d-47e1-8c1d-307d7ef79a2f",typeof(Analytics), typeof(Crashes), typeof(Distribute)); //sample
-            throw new System.Exception("this is crash");
+            MobileCenter.SetLogUrl("http://xyz.comg");
+            throw new MobileCenterException("Crashed");
+          //  throw new System.StackOverflowException("this is crash");
             // Set our view from the "main" layout resource sample
             // SetContentView (Resource.Layout.Main);
         }
